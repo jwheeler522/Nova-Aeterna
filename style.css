@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    
+  }
+.title{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    
+  
+}
+.menu {
+    padding-top: 50px;
+    position: fixed;
+    display: flex;
+ 
+    transform: translate(150px);
+    background-color: rgb(255, 255, 255);
+    padding-left: 250px;
+    width: 80%;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+
+}
+
+.resume {
+
+    display: flex;
+    border: 1px solid black;
+
+}
+#quote {
+
+    display: flex;
+    border: 1px solid black;
+
+}
+#yolo{
+
+    color: red;
+
+}
+#one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image {
+    width: 600px;
+    height: 100vh;
+}
+
+#coolGuy {
+    border-radius: 50%;
+}
